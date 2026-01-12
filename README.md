@@ -20,3 +20,19 @@ It allows users to:
 - Pagination Controls: Navigate records with First, Previous, Next, and Last buttons.
 - Record Size Options: Choose how many records to display per page (10, 25, 50, 100).
 
+Usage
+- Deploy Apex Class
+Ensure DynamicPaginationClass Apex class is deployed with methods:
+- fetchObjectList
+- fetchFieldsList
+- fetchRecords
+- Add LWC to Page
+Deploy DynamicPagination LWC and add it to a Lightning App Page, Record Page, or Utility Bar.
+- Interact with Component
+- Select an object from the dropdown.
+- Choose fields to display.
+- Click search to fetch records.
+- Use pagination controls to navigate.
+- Adjust record size as needed.
+
+
